@@ -24,3 +24,13 @@ python momentum_print_scan.py
 ```
 
 The script prints a table containing ticker details, trade plan, and catalyst headlines.
+
+# Real-time Gainer Scanner
+
+To continuously watch for top intraday movers, run:
+
+```bash
+python realtime_gainer_scan.py
+```
+
+The script prints the top Polygon gainers and refreshes the list every 30 seconds.
